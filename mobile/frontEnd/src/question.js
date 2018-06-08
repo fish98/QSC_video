@@ -2,7 +2,7 @@ import React from 'react'
 import './question.css'
 /// blue #639cf1
 /// red #ffc0c0
-const mobile = new WebSocket('ws://localhost:4030')
+const mobile = new WebSocket('wss://site.zjuqsc.com/mobile')
 const choose = new WebSocket('wss://site.zjuqsc.com/choose')
 
 const isMobile = (window.innerWidth <= 1000)?true:false 
