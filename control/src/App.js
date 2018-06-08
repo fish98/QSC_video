@@ -7,7 +7,7 @@ import Header from './header'
 let isMobile = false
 
 const video = new WebSocket('ws://localhost:4000')
-const mobile = new WebSocket('ws://localhost:4030')
+const mobile = new WebSocket('wss://site.zjuqsc.com/mobile')
 
 if(window.innerWidth <= 600){
   isMobile = true
