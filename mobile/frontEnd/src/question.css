@@ -1,0 +1,21 @@
+body{
+    text-align: center
+}
+
+.question{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: bold
+}
+
+.option > div {
+    font-size: 24px;
+}
+
+.option{
+    /* display: flex; */
+}
+
+button{
+    font-weight: bold
+}
